@@ -1,0 +1,57 @@
+To do cluster up ad avoid http proxy error 
+oc cluster up --http-proxy=${HTTP_PROXY} --https-proxy=${HTTPS_PROXY}
+
+To add an user give admin access
+oc adm policy add-cluster-role-to-user cluster-admin developer
+
+link:
+https://www.youtube.com/watch?v=r5VzXvvkiL4
+
+To run docker file
+docker-compose up
+
+Build docker image 
+https://www.callicoder.com/spring-boot-docker-example/
+mvn clean package
+
+docker build -t anyNamefortheimage .
+docker image ls -you should see the created image
+docker run -p 8085:8085 anyNamefortheimage
+
+Refer this
+http://containertutorials.com/docker-compose/spring-boot-app.html 
+for adding docker plugin in maven run
+
+push a docker image to docker hub
+https://stackoverflow.com/questions/28349392/how-to-push-a-docker-image-to-a-private-repository
+1. Login in to docker hub
+    docker login --username=ajitnitrkl --password=Ajit123
+2. Tag the image that needs to be pushed
+    docker tag <ImageId> ajitnitrkl/myimage
+3. push the tagged image
+    docker push ajitnitrkl/myimage
+
+Login to docker hub in browser and verify it
+
+To deply in openshift:
+1. Login in as admin or developer
+2. create a project 
+3. deploy the image by giving dockerhub image details
+    ajitnitrkl/myimage
+4. create external route to expose it in browser
+    click on create route link and enter details
+5. use the generated url to check the application
+    http://myimage-springboottodoapp.127.0.0.1.nip.io:8081/
+    http://myimage-springboottodoapp.127.0.0.1.nip.io:8085/api/todos
+
+    http://myimage-myproject.127.0.0.1.nip.io/api/todos
+
+    The above generated url iam checking for mongoexpress
+
+
+    Refer to this for microservice
+    https://exampledriven.wordpress.com/2016/07/01/spring-cloud-eureka-ribbon-feign-example/
+
+    To add an project to github
+    https://scotch.io/tutorials/how-to-push-an-existing-project-to-github 
+

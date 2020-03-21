@@ -1,0 +1,42 @@
+total 140K
+drwxr-xr-x   1 root root 4.0K Feb  3 00:03 .
+drwxr-xr-x   1 root root 4.0K Feb  3 00:03 ..
+-rwxr-xr-x   1 root root    0 Feb  3 00:03 .dockerenv
+-rw-r--r--   1 root root  12K Dec  5 01:37 anaconda-post.log
+-rwxr-xr-x   1 root root  182 Jan  1  1970 apply.sh
+lrwxrwxrwx   1 root root    7 Dec  5 01:36 bin -> usr/bin
+drwxr-xr-x  10 root root 2.8K Feb  3 00:03 dev
+drwxr-xr-x   1 root root 4.0K Feb  3 00:03 etc
+drwxr-xr-x   2 root root 4.0K Apr 11  2018 home
+-rw-r--r--   1 root root 5.6K Jan  1  1970 kubeconfig.kubeconfig
+lrwxrwxrwx   1 root root    7 Dec  5 01:36 lib -> usr/lib
+lrwxrwxrwx   1 root root    9 Dec  5 01:36 lib64 -> usr/lib64
+-rw-r--r--   1 root root  60K Jan  1  1970 list.yaml
+drwxr-xr-x   2 root root 4.0K Apr 11  2018 media
+drwxr-xr-x   2 root root 4.0K Apr 11  2018 mnt
+-rw-r--r--   1 root root    9 Jan  1  1970 namespace-file
+drwxr-xr-x   2 root root 4.0K Apr 11  2018 opt
+dr-xr-xr-x 276 root root    0 Feb  2 23:53 proc
+dr-xr-x---   1 root root 4.0K Jan  3 15:55 root
+drwxr-xr-x   1 root root 4.0K Jan 13 08:33 run
+lrwxrwxrwx   1 root root    8 Dec  5 01:36 sbin -> usr/sbin
+drwxr-xr-x   2 root root 4.0K Apr 11  2018 srv
+dr-xr-xr-x  13 root root    0 Feb  3 00:02 sys
+drwxrwxrwt   1 root root 4.0K Jan 13 08:33 tmp
+drwxr-xr-x   1 root root 4.0K Dec  5 01:36 usr
+drwxr-xr-x   1 root root 4.0K Dec  5 01:36 var
+imagestream.image.openshift.io "dotnet" configured
+imagestream.image.openshift.io "httpd" configured
+imagestream.image.openshift.io "jenkins" configured
+imagestream.image.openshift.io "mariadb" configured
+imagestream.image.openshift.io "mongodb" configured
+imagestream.image.openshift.io "mysql" configured
+imagestream.image.openshift.io "nginx" configured
+imagestream.image.openshift.io "nodejs" configured
+imagestream.image.openshift.io "perl" configured
+imagestream.image.openshift.io "php" configured
+imagestream.image.openshift.io "postgresql" configured
+imagestream.image.openshift.io "python" configured
+imagestream.image.openshift.io "redis" configured
+imagestream.image.openshift.io "ruby" configured
+imagestream.image.openshift.io "wildfly" configured

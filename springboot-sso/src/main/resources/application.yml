@@ -1,0 +1,11 @@
+security:
+ oauth2:
+  client:
+   clientId: 0oaatpsp3zOeKkOCz356
+   clientSecret: 0pIXdtZ1zsSkxmKCDTCHf9XpRg3jOps_Pn0ExXW-
+   accessTokenUri: https://dev-333278.okta.com/oauth2/default/v1/token
+   userAuthorizationUri: https://dev-333278.okta.com/oauth2/default/v1/authorize
+  resource:
+   userInfoUri: https://dev-333278.okta.com/oauth2/default/v1/userinfo
+  sso:
+   loginPath: /authorization-code/callback

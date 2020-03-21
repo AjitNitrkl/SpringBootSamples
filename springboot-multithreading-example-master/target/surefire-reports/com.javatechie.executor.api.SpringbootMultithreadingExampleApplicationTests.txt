@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.javatechie.executor.api.SpringbootMultithreadingExampleApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.675 s - in com.javatechie.executor.api.SpringbootMultithreadingExampleApplicationTests
