@@ -1,0 +1,17 @@
+server:
+  port: 9001
+
+security:
+  jwt:
+    key-store: classpath:keystore.jks
+    key-store-password: letmein
+    key-pair-alias: mytestkey
+    key-pair-password: changeme
+
+debug: true
+
+spring:
+  jackson:
+    serialization:
+      INDENT_OUTPUT: true
+
